@@ -1,0 +1,19 @@
+{
+    "name": "testsproject/laravel-tasks",
+    "description": "Simple tasks package",
+    "type": "library",
+
+    "autoload": {
+        "psr-4": {
+            "Testsproject\\LaravelTasksServiceProvider \\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Testsproject\\LaravelTasks\\LaravelTasksServiceProvider"
+            ]
+        }
+    }
+}
